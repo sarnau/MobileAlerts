@@ -1,5 +1,10 @@
 # Mobile Alerts Sensors
 
+
+# Please check <https://github.com/sarnau/MMMMobileAlerts> for a full reverse engineered spec of the Mobile Alerts sensors!
+
+
+
 My reverse engineering efforts to read the ELV Mobile Alerts sensors from Python.
 
 ELV is selling affordable weather sensors <http://www.elv.de/ip-wettersensoren-system.html>, which can be monitored via an iOS application. To allow that all data is transmitted via a gateway to a server, which the application can access. Sadly the protocol is not documented. I don't think anybody has documented the way the URL has been constructed, especially the MD5 hash over the first part of it.
